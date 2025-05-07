@@ -1,6 +1,6 @@
 # Requisitos Não Funcionais
 
-Este documento descreve os requisitos não funcionais do Config Service, abordando aspectos técnicos, operacionais e de qualidade do microserviço.
+Este documento descreve os requisitos não funcionais do CSV Service, abordando aspectos técnicos, operacionais e de qualidade do microserviço.
 
 ## Performance e Escalabilidade
 
@@ -76,7 +76,7 @@ Este documento descreve os requisitos não funcionais do Config Service, abordan
    {
      "timestamp": "2025-05-07T10:00:00Z",
      "level": "INFO",
-     "service": "config-service",
+     "service": "csv-service",
      "traceId": "abc-123",
      "method": "GET",
      "path": "/api/v1/attributes",
