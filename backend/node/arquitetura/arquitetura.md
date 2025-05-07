@@ -4,7 +4,7 @@
 
 ## Registros no app.module.ts
 
-Todo novo componente desenvolvido no sistema (Controllers, Use Cases, Repositories, etc.) DEVE ser registrado no `app.module.ts` localizado na raiz do projeto. Este é um requisito obrigatório para que o NestJS possa gerenciar corretamente as dependências.
+Todo novo componente desenvolvido no sistema (Controllers, Use Cases, Repositories, etc.) DEVE ser criado em módulo (ex: GraphicModule) específico e depois registrado no `app.module.ts` localizado na raiz do projeto. Este é um requisito obrigatório para que o NestJS possa gerenciar corretamente as dependências.
 
 ### Padrão de Registro
 
