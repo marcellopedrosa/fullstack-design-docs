@@ -1,53 +1,84 @@
-# Fullstack Application Blueprint · Java · Node · Next.js
+# Fullstack Application Blueprint · Java · Node · Next.js · Mobile · DevSecOps
 
-Este repositório contém a documentação e estrutura base de um sistema completo com frontend moderno em **Next.js** e backends em **Node.js** e **Java (Spring Boot)**. Ele serve como ponto de partida para projetos escaláveis, modulares e organizados por equipes multidisciplinares.
+Este repositório contém a documentação e estrutura base de um sistema completo com frontend moderno em **Next.js**, backends em **Node.js** e **Java (Spring Boot)**, aplicativo **mobile** e práticas de **DevSecOps**. Ele serve como ponto de partida para projetos escaláveis, modulares e organizados por equipes multidisciplinares.
+
+> Esta é uma documentação de **nível estratégico** (alto nível) e tem como um de seus objetivos orientar **Agentes de Inteligência Artificial** quanto às diretrizes arquiteturais, estrutura modular e propósitos de cada parte do sistema.
 
 ## Objetivo
 
-Facilitar a compreensão, desenvolvimento e evolução de aplicações modernas com separação clara de responsabilidades, boas práticas de arquitetura, documentação, integração e padronização entre frontend e backend.
+Oferecer uma visão clara e padronizada da arquitetura de software, visando apoiar tanto humanos quanto agentes autônomos no desenvolvimento, análise e manutenção de sistemas modernos e seguros.
 
-## Estrutura de Pastas
+## Estrutura de Diretórios
 
-Abaixo está a estrutura geral do repositório, com cada pasta contendo um projeto independente:
-
-![image](https://github.com/user-attachments/assets/2fed4588-f4e8-423c-916a-5967877a855e)
+![image](https://github.com/user-attachments/assets/26e25915-8ed9-4d06-bf88-1f988f82d02a)
 
 ## Visão Geral dos Projetos
 
-### Backend · Java
+### backend/java/
 
 - **Tecnologia:** Java 17+ com Spring Boot 3.x
-- **Camadas:** Controller, Service, Repository
-- **Integrações:** OpenAPI (Swagger), banco de dados relacional, autenticação OAuth2
-- **Extras:** Configuração modular, testes com JUnit, containers com Docker
+- **Camadas:** Controller, Service, Repository, DTOs
+- **Recursos:** API REST com OpenAPI (Swagger), banco de dados relacional (PostgreSQL, MySQL), autenticação OAuth2
+- **Extras:** Testes com JUnit 5, perfil de ambientes, conteinerização com Docker
 
-### Backend · Node.js
+### backend/node/
 
-- **Tecnologia:** Node 18+ com NestJS ou Express
-- **Recursos:** API REST/GraphQL, middlewares, autenticação JWT/OAuth
-- **Monitoramento:** Prometheus, OpenTelemetry, integração com observabilidade
-- **Extras:** Gerenciamento de filas, microsserviços, testes com Jest
+- **Tecnologia:** Node.js 18+ com NestJS (ou Express.js)
+- **Funcionalidades:** API REST/GraphQL, autenticação JWT/OAuth2, middlewares customizados
+- **Observabilidade:** Prometheus, OpenTelemetry, logs estruturados
+- **Extras:** Microsserviços, filas (RabbitMQ, Kafka), testes com Jest
 
-### Frontend · Next.js
+### frontend/nextjs/
 
-- **Tecnologia:** React 18 com Next.js 14
-- **Funcionalidades:** SSR (Server-side Rendering), SSG (Static Generation), APIs internas
-- **UI:** Tailwind CSS, componentes desacoplados, integração com backend
-- **Autenticação:** OAuth2, integração com Keycloak ou Auth0
+- **Tecnologia:** React 18 com Next.js 14+
+- **Funcionalidades:** SSR, SSG, rotas dinâmicas, API Routes, internacionalização
+- **UI:** Tailwind CSS, componentes desacoplados, dark mode
+- **Autenticação:** OAuth2 (Keycloak, Auth0, etc.)
 
-## SEO e Facilidade de Localização
+### mobile/
 
-Este repositório foi nomeado e descrito de forma a facilitar sua localização por ferramentas de busca. Palavras-chave utilizadas:
+- **Tecnologia:** React Native (ou Flutter)
+- **Funcionalidades:** Interface responsiva, integração com APIs backend, autenticação segura
+- **Extras:** Push notifications, offline-first, permissões nativas, testes com Detox ou Flutter Driver
 
-- `nextjs`, `spring boot`, `nodejs`, `java`, `typescript`, `frontend`, `backend`, `arquitetura de sistemas`, `monorepo`, `design docs`, `template`, `starter`
+### devsecops/
+
+- **Tecnologias:** Terraform, Docker, GitHub Actions, ArgoCD, Helm
+- **Segurança:** Scanners de vulnerabilidade (Snyk, Trivy), verificação de secrets e compliance
+- **CI/CD:** Pipelines para build, teste, lint, deploy contínuo
+- **Monitoramento:** Prometheus, Grafana, Alertmanager, Jaeger
+- **Observabilidade:** Tracing distribuído, métricas, logs estruturados
+
+## Diretrizes para Agentes de IA
+
+Agentes de Inteligência Artificial que consumirem este repositório devem:
+
+- Priorizar a análise do diretório conforme o escopo da sua tarefa (`frontend`, `backend`, `mobile`, `devsecops`);
+- Respeitar os padrões de autenticação, comunicação entre camadas e observabilidade estabelecidos neste documento;
+- Usar as palavras-chave e estrutura de pastas para tomada de decisão autônoma na geração de código, testes e infraestrutura;
+- Manter coerência com a organização modular ao sugerir mudanças ou refatorações.
+
+## SEO e Indexação
+
+Palavras-chave estratégicas para localização em mecanismos de busca:
+
+- `nextjs`, `spring boot`, `nodejs`, `java`, `typescript`, `react native`, `mobile`, `frontend`, `backend`, `devops`, `devsecops`, `terraform`, `docker`, `oauth`, `ci/cd`, `arquitetura de sistemas`, `design docs`, `template`, `starter`, `microservices`, `observabilidade`
 
 ## Público-Alvo
 
-- **Desenvolvedores**: onboarding rápido com estrutura pronta
-- **Arquitetos de Sistemas**: referência de arquitetura modular e desacoplada
-- **DevOps**: integração com CI/CD, monitoramento e infraestrutura como código
-- **Product Owners / Analistas**: compreensão clara dos domínios e integrações
+- **Desenvolvedores:** onboarding rápido com estrutura consistente e pronta para evoluir
+- **Arquitetos de Sistemas:** blueprint de arquitetura moderna, modular e desacoplada
+- **DevOps/SREs:** pipelines CI/CD integráveis, práticas de segurança e infraestrutura como código
+- **Product Owners / Analistas:** mapeamento claro dos domínios e papéis de cada parte do sistema
+- **Agentes de IA:** estrutura semântica clara para suporte em decisões técnicas automatizadas
+
+## Possíveis Extensões Futuras
+
+- Integração com plataformas low-code/no-code
+- Suporte a multitenancy e deploy multiambiente
+- Assistente autônomo para deploy e monitoramento via linguagem natural
+- Modelos de Machine Learning plugáveis como microsserviços
 
 ## Licença
 
-[MIT](./LICENSE)
+Este projeto está licenciado sob a [MIT License](./LICENSE).
