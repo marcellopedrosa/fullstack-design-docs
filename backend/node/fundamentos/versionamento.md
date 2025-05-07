@@ -1,14 +1,14 @@
-# Padrões de Versionamento do CONFIG-SERVICE
+# Padrões de Versionamento
 
 ## Introdução
 
-Este documento define os padrões de versionamento adotados no projeto CONFIG-SERVICE, baseados no [SemVer (Semantic Versioning)](https://semver.org/) e adaptados às necessidades específicas do nosso serviço backend.
+Este documento define os padrões de versionamento adotados no projeto CSC-SERVICE, baseados no [SemVer (Semantic Versioning)](https://semver.org/) e adaptados às necessidades específicas do nosso serviço backend.
 
 O versionamento semântico nos permite comunicar claramente as mudanças introduzidas em cada versão, facilitando o gerenciamento de dependências e a manutenção do software.
 
 ## Formato da Versão
 
-O versionamento do CONFIG-SERVICE segue o padrão **N1.N2.N3** (Major.Minor.Patch), onde:
+O versionamento do CSC-SERVICE segue o padrão **N1.N2.N3** (Major.Minor.Patch), onde:
 
 - **N1 (Major)**: Incrementado quando há mudanças incompatíveis na API ou alterações estruturais significativas
 - **N2 (Minor)**: Incrementado quando há novas funcionalidades adicionadas de maneira compatível
@@ -42,7 +42,7 @@ Nosso padrão se alinha com o SemVer da seguinte forma:
 
 ## Exemplos Práticos
 
-- **1.0.0**: Versão inicial estável do CONFIG-SERVICE
+- **1.0.0**: Versão inicial estável do CSC-SERVICE
 - **1.1.0**: Adição de novos endpoints de atributos
 - **1.1.1**: Correção de bug na validação de dados
 - **2.0.0**: Refatoração completa da camada de autenticação
@@ -155,5 +155,5 @@ Este sistema de versionamento tem como objetivos:
 ## Referências
 
 - [SemVer - Semantic Versioning 2.0.0](https://semver.org/)
-- [Documentação de Changelog do CONFIG-SERVICE](/docs/changelog/README.md)
+- [Documentação de Changelog do CSC-SERVICE](/docs/changelog/README.md)
 - [NestJS Release Conventions](https://docs.nestjs.com/)
