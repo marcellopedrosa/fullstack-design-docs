@@ -1,3 +1,21 @@
+# Fullstack Application Blueprint · Java · Node · Next.js
+
+Este repositório contém a documentação e estrutura base de um sistema completo com frontend moderno em **Next.js** e backends em **Node.js** e **Java (Spring Boot)**. Ele serve como ponto de partida para projetos escaláveis, modulares e organizados por equipes multidisciplinares.
+
+## Objetivo
+
+Facilitar a compreensão, desenvolvimento e evolução de aplicações modernas com separação clara de responsabilidades, boas práticas de arquitetura, documentação, integração e padronização entre frontend e backend.
+
+## Estrutura de Pastas
+
+Abaixo está a estrutura geral do repositório, com cada pasta contendo um projeto independente:
+
+/design-docs/
+├── backend/
+│ ├── java/ # Projeto backend Java com Spring Boot
+│ └── node/ # Projeto backend Node.js com NestJS ou Express
+├── frontend/
+│ └── nextjs/ # Projeto frontend com Next.js (React)
 
 ## Visão Geral dos Projetos
 
