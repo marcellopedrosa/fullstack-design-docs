@@ -1,6 +1,14 @@
 # Fullstack Application Blueprint · Java · Node · Next.js · Mobile · DevSecOps
 
-Este repositório contém a documentação e estrutura base de um sistema completo chamado CSC (fictício) com frontend moderno em **Next.js**, backends em **Node.js** e **Java (Spring Boot)**, aplicativo **mobile** e práticas de **DevSecOps**. Ele serve como ponto de partida para projetos escaláveis, modulares e organizados por equipes multidisciplinares.
+Este repositório contém a documentação e estrutura base de partes(componentes) de um sistema chamado CSC (fictício) com:
+
+### frontend moderno em **Next.js**, 
+### backends em **Node.js** 
+### **Java (Spring Boot)**, 
+### aplicativo **mobile** 
+### práticas de **DevSecOps**. 
+
+Ele serve como ponto de partida para projetos escaláveis, modulares e organizados por equipes multidisciplinares.
 
 > Esta é uma documentação de **nível estratégico** (alto nível) e tem como um de seus objetivos orientar **Agentes de Inteligência Artificial** quanto às diretrizes arquiteturais, estrutura modular e propósitos de cada parte do sistema.
 
