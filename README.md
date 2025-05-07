@@ -2,10 +2,10 @@
 
 Este repositório contém a documentação e estrutura base de partes(componentes) de um sistema chamado CSC (fictício) com:
 
-#### Frontend em **Next.js**, 
-#### Backends em **Node.js** ou **Java (Spring Boot)**
-#### Mobile em **flutter**
-#### Práticas de **DevSecOps**. 
+- Frontend em **Next.js**, 
+- Backends em **Node.js** ou **Java (Spring Boot)**
+- Mobile em **flutter**
+- Práticas de **DevSecOps**. 
 
 Ele serve como ponto de partida para projetos escaláveis, modulares e organizados por equipes multidisciplinares.
 
