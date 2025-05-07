@@ -1,4 +1,4 @@
-# Estratégia 2: Utilização da Interface de Login do Keycloak
+# Estratégia: Utilização da Interface de Login do Keycloak
 
 ## Visão Geral
 
