@@ -10,12 +10,7 @@ Facilitar a compreensão, desenvolvimento e evolução de aplicações modernas 
 
 Abaixo está a estrutura geral do repositório, com cada pasta contendo um projeto independente:
 
-/design-docs/
-├── backend/
-│ ├── java/ # Projeto backend Java com Spring Boot
-│ └── node/ # Projeto backend Node.js com NestJS ou Express
-├── frontend/
-│ └── nextjs/ # Projeto frontend com Next.js (React)
+![image](https://github.com/user-attachments/assets/2fed4588-f4e8-423c-916a-5967877a855e)
 
 ## Visão Geral dos Projetos
 
