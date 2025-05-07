@@ -1,6 +1,6 @@
-# Documentação do Config Service
+# Documentação do csc-service (fictício)
 
-Esta pasta contém a documentação completa do Config Service, um serviço robusto desenvolvido em NestJS para gerenciamento centralizado de configurações e atributos do sistema.
+Esta pasta contém a documentação completa do CSC Service, um serviço robusto desenvolvido em NestJS para gerenciamento centralizado de configurações e atributos do sistema.
 
 ## Estrutura de Diretórios
 
@@ -108,4 +108,4 @@ Para contribuir com a documentação:
 4. Faça revisão por pares das alterações
 5. Mantenha a documentação em português do Brasil
 
-Esta documentação é um recurso vivo que evolui com o projeto. Mantenha-a atualizada e relevante para garantir seu valor contínuo para a equipe e usuários do Config Service.
+Esta documentação é um recurso vivo que evolui com o projeto. Mantenha-a atualizada e relevante para garantir seu valor contínuo para a equipe e usuários do CSC Service.
