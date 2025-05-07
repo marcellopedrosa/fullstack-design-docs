@@ -1,4 +1,4 @@
-# Implementação Keycloak - Etapa 2: Processamento de Tokens e Proteção de Rotas
+# Implementação Keycloak - Processamento de Tokens e Proteção de Rotas
 
 Este documento descreve a implementação completa da integração com Keycloak, incluindo o processamento de tokens e a proteção de rotas autenticadas.
 
