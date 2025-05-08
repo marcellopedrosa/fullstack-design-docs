@@ -86,10 +86,6 @@ Palavras-chave estratégicas para localização em mecanismos de busca:
 - Assistente autônomo para deploy e monitoramento via linguagem natural
 - Modelos de Machine Learning plugáveis como microsserviços
 
-## Licença
-
-Este projeto está licenciado sob a [MIT License](./LICENSE).
-
 ## Exemplos:
 
 - Criação de changelog de atualizações e melhorias de um microserviço usando as diretrizes:
