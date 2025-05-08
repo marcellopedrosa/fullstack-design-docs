@@ -89,3 +89,11 @@ Palavras-chave estratégicas para localização em mecanismos de busca:
 ## Licença
 
 Este projeto está licenciado sob a [MIT License](./LICENSE).
+
+## Exemplos:
+
+- Criação de changelog de atualizações e melhorias de um microserviço usando as diretrizes:
+- backend/node/fundamentos/versionamento.md
+
+![image](https://github.com/user-attachments/assets/e0abbeac-a964-4fb4-9dae-28de77fe16a4)
+
