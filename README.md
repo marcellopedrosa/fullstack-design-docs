@@ -23,7 +23,7 @@ Oferecer uma visão clara e padronizada da arquitetura de software, visando apoi
 
 ### backend/java/
 
-- **Tecnologia:** Java 17+ com Spring Boot 3.x
+- **Tecnologia:** Java 21+ com Spring Boot 3.x
 - **Camadas:** Controller, Service, Repository, DTOs
 - **Recursos:** API REST com OpenAPI (Swagger), banco de dados relacional (PostgreSQL, MySQL), autenticação OAuth2
 - **Extras:** Testes com JUnit 5, perfil de ambientes, conteinerização com Docker
